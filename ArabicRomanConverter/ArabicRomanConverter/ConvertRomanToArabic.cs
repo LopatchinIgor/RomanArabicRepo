@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 
 namespace ArabicRomanConverter
-{ 
+{
     public class ConvertRomanToArabic : IConvert<int, string>
     {
         public int Convert(string inputRoman)
@@ -26,7 +26,3 @@ namespace ArabicRomanConverter
         }
     }
 }
-    
-    
-
-

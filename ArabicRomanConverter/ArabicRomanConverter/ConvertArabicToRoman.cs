@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace ArabicRomanConverter
 {
-    public class ConvertArabicToRoman : IConvert<string,int>
+    public class ConvertArabicToRoman : IConvert<string, int>
     {
         public string Convert(int number)
         {
@@ -24,4 +20,3 @@ namespace ArabicRomanConverter
         }
     }
 }
-

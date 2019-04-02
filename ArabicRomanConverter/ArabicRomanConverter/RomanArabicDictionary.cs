@@ -14,6 +14,7 @@ namespace ArabicRomanConverter
             { "D", 500 },
             { "M", 1000 }
         };
+
         public static Dictionary<int, string> NumberRomanDictionary = new Dictionary<int, string>
         {
             { 1000, "M" },
@@ -29,9 +30,5 @@ namespace ArabicRomanConverter
             { 4, "IV" },
             { 1, "I" },
         };
+    }
 }
-}
-    
-    
-
-

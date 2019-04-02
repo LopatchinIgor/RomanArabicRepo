@@ -1,26 +1,20 @@
 ﻿using System;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ArabicRomanConverter
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Please enter roman numerals");
             string s = Console.ReadLine().ToUpper();
             ConvertRomanToArabic a = new ConvertRomanToArabic();
-            a.Convert(s);
+            var resulta = a.Convert(s);
+            Console.WriteLine(resulta);
             ConvertArabicToRoman b = new ConvertArabicToRoman();
-            var c = b.Convert(15);
+            var c = b.Convert(resulta);
+            Console.WriteLine(c);
             Console.ReadKey();
         }
     }
-
-
 }
-    
-    
-
-
